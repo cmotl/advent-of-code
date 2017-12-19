@@ -1,0 +1,6 @@
+docker run \
+  -it \
+  --rm \
+  -w /src \
+  -v ${PWD}:/src \
+  clojure:lein-2.8.1
